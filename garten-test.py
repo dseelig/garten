@@ -1,5 +1,4 @@
 from time import sleep
-from git import Repo
 
 prog1 = {'name' : 'gwg', 'state' : 0, 'seconds' : 5, "gpio" : "12"}
 prog2 = {'name' : 'gwvl', 'state' : 0, 'seconds' : 5, "gpio" : "13"}
