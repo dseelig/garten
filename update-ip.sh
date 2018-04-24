@@ -17,5 +17,5 @@ elif [[ "$ipNew" != *"$name"* ]]
 then
 	update_ip_and_git $1
 else
-	echo "nichts ende"
+	echo "The current ip is identical with the last saved ip."
 fi
