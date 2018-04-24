@@ -1,7 +1,7 @@
 #!/bin/sh
 ipNew=$(curl -s ip.skittel.de)
 name=$(cat "$1")
-currentdate=date+"%d.%m.%y" 
+currentdate=$(date+"%d.%m.%y") 
 
 update_ip_and_git() {
 	echo $ipNew > $1
