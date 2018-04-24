@@ -6,8 +6,8 @@ currentdate=date+"%d.%m.%y"
 update_ip_and_git() {
 	echo $ipNew > $1
 	git add ip-raspberry-pi-3
-	git commit ip-raspberry-pi-3 -m"ip update from - $currentdate"
-	git push ip-raspberry-pi-3
+	git commit -m"ip update from - $currentdate"
+	git push
 }
 
 if [ -z "$name" ]
